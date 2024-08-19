@@ -21,6 +21,7 @@ Verilerin ChromaDB'ye Yüklenmesi
 
 chroma_client, chroma_collection = load_multiple_csvs_to_ChromaDB(collection_name, sentence_transformer_model)
 load_multiple_csvs_to_ChromaDB()
+
 Bu fonksiyon:
 CSV dosyasını okur.
 Verileri satırlara böler.
