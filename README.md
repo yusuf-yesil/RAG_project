@@ -3,7 +3,7 @@ Apache Sunucu Günlük Kayıtlarına Dayalı RAG Tabanlı LLM Destekli Q&A Uygul
 
 ## Genel Bakış:
 
-Bu proje, Apache sunucu günlük kayıtlarını kullanarak sorulara yanıt vermeyi amaçlayan bir Retrieval-Augmented Generation (RAG) sistemi oluşturmayı içerir. Proje, esas olarak Google Colab'da geliştirilmiş olup, veri ön işleme işlemi Jupyter Notebook'ta gerçekleştirilmiştir. Uygulama, günlük kayıt verilerini gömmek için sentence transformers, vektör depolama ve sorgulama için ChromaDB, yanıtları oluşturmak için ise Gemini 1.5 Flash büyük dil modelini (LLM) kullanır. Yapılan performans testleri sonucunda %80 doğrulukla çalıştığı görülmüştür.
+Bu proje, Apache sunucu günlük kayıtlarını kullanarak sorulara yanıt vermeyi amaçlayan bir Retrieval-Augmented Generation (RAG) sistemi oluşturmayı içerir. Proje, esas olarak Google Colab'da geliştirilmiş olup, veri ön işleme işlemi Jupyter Notebook'ta gerçekleştirilmiştir. Uygulama, günlük kayıt verilerini gömmek için sentence transformers, vektör depolama ve sorgulama için ChromaDB, yanıtları oluşturmak için ise Gemini 1.5 Flash büyük dil modelini (LLM) kullanır. Yapılan doğruluk testleri sonucunda %80 doğrulukla çalıştığı görülmüştür.
 
 ![Ekran görüntüsü 2024-08-19 210953](https://github.com/user-attachments/assets/dc1be266-e6be-4836-9a8c-fbd898d39236)
 ![Ekran görüntüsü 2024-08-19 211504](https://github.com/user-attachments/assets/c622e0a9-a190-4f51-acc4-2f8315132130)
@@ -13,7 +13,6 @@ Bu proje, Apache sunucu günlük kayıtlarını kullanarak sorulara yanıt verme
 ->Kaynak: Apache sunucu günlük kayıtları Kaggle'dan elde edilmiştir.
 #### Ön İşleme:
 ->Jupyter Notebook'ta Pandas kullanılarak günlük verileri işlenmiş ve CSV formatına dönüştürülmüştür.
-->Format sorunları nedeniyle veri seti 380 satıra düşürülmüştür.
 
 ### Model Seçimi:
 #### İlk Model: distiluse-base-multilingual-cased-v1
