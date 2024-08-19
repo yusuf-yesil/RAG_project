@@ -61,7 +61,7 @@ Gemini 1.5 Flash modeli, Google Colab'da çalıştırılarak, sorgulanan belgele
 ->Proje tamamlandıktan sonra, temel proje basit bir Gradio arayüzüne taşınmış ve bu arayüz üzerinden kullanılabilir hale getirilmiştir. Gradio, kullanıcıların web tabanlı bir arayüzde sorgular yapmasına ve sonuçları görüntülemesine olanak tanır.
 
 ### Model Performans Testi
-Model, toplamda 10 farklı soru ile test edilmiştir. Test sonuçlarına göre:
+Model, toplamda 10 farklı soru ile test edilmiştir(Sorular ve modelin ürettiği cevaplar main.ipynb dosyası içerisinde mevcuttur). Test sonuçlarına göre:
 
 ->8 Doğru Yanıt: %80 doğruluk oranı.
 ->2 "Cevap Bulunamadı" Yanıtı: %20 oranında cevap bulamama durumu.
