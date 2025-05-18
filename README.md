@@ -1,5 +1,6 @@
 # RAG_project
 Apache Sunucu Günlük Kayıtlarına Dayalı RAG Tabanlı LLM Destekli Q&A Uygulaması
+https://www.youtube.com/watch?v=2ym-t80cUyo&t=9s
 
 ## Genel Bakış:
 
